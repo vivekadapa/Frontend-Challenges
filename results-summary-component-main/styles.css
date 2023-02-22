@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.main-container {
+    max-width: 700px;
+    margin: 7rem auto;
+    display: flex;
+}
+
+.result-container {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 2rem;
+    max-width:350px;
+    height: 100%;
+    text-align: center;
+    color:hsl(241, 100%, 89%);
+}
+
+.result-container h3{
+    margin:1rem 0;
+    color:hsl(241, 100%, 89%);
+}
+.result-container h2{
+    color:hsl(0, 0%, 100%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.result-container p{
+    font-size: 18px;
+    padding-left:2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.summary-container {
+    padding: 2rem 0rem 1rem 2rem;
+    width:50%;
+}
+
+.circle {
+    margin:0.5rem auto;
+    padding-top: 4rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.summary-details{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.score{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.mb{
+    margin-bottom: 1.5rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.6rem;
+}
+
+.c-red{
+    color: hsl(0, 100%, 67%);
+}
+
+.c-green{
+    color:hsl(166, 100%, 37%);
+}
+
+.c-yellow{
+    color:hsl(39, 100%, 56%);
+}
+
+.c-blue{
+    color:hsl(234, 85%, 45%);
+}
+.btn-continue{
+    border: none;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    width:90%;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+}
+@media only screen and (max-width:746px) {
+    .main-container{
+        display: block;
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .result-container{
+        width: 100%; 
+    }
+    .summary-container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .summary-details{
+        margin: 0;
+    }
+}
