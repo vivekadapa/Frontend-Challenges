@@ -68,9 +68,9 @@ article:nth-of-type(2) h1 {
 
 button {
     text-align: center;
-    width: 80%;
+   
     margin-top: 1rem;
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 1rem 5rem 1rem 5rem;
     border-radius: 0.5rem;
     border: none;
     background-color: hsl(158, 36%, 37%);
@@ -79,8 +79,13 @@ button {
     color: white;
 }
 
+
 button img {
     margin-right: 0.5rem;
+}
+
+button:hover{
+    background-color:hsl(158, 37%, 16%);
 }
 
 
@@ -93,6 +98,12 @@ button img {
         grid-template-columns: 1fr 1fr;
         max-width: 600px;
         align-items: center;
+        justify-content: center;
+    }
+
+    button{
+        width: 80%;
+        padding: 1rem 2rem 1rem 2rem;
         justify-content: center;
     }
 
